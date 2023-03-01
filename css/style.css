@@ -1,3 +1,15 @@
+body {
+    margin-top: 112px;
+    margin-left: 300px;
+    
+}
+
+main {
+
+    width: 850px;
+    height: 238px;
+}
+
 h1 {
     font-family: 'Press Start 2P';
     font-style: normal;
@@ -7,11 +19,12 @@ h1 {
     color: #1F6BFF;
 }
 
-h2.profession {
+span.profession {
+    color:#090909;
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -21,7 +34,7 @@ p.desc {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 span.desc_Blue {
