@@ -9,4 +9,19 @@ function copyToClipboard() {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
-}
+    
+    const button = document.getElementById("copyText");
+    const text = button.innerText;
+    navigator.clipboard.writeText(text);
+    const notification = document.createElement('span');
+    notification.classList.add('copy-notification');
+    notification.textContent = 'Текст скопирован в буфер обмена'; 
+    button.parentNode.insertBefore(notification, button.nextSibling); 
+    setTimeout(() => notification.remove(), 2000);
+      
+
+  
+    }
+
+
+    
