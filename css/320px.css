@@ -1,0 +1,105 @@
+@media (max-width: 480px) {
+    body {
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 11px;
+        margin-bottom: 44px;
+        
+    }
+    main {
+        width: 296px;
+        height: 336px;
+        margin-top: 32px; 
+    }
+
+    h1 {
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+    }
+
+    div.text {
+        width: 290px;
+        height: 154px;
+        line-height: 118%;
+    }
+
+    span.profession {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    p.desc {
+        font-size: 12px;
+        line-height: 118%;
+        letter-spacing: 0.015em;
+    }
+
+    span.desc_Blue {
+        font-size: 12px;
+        line-height: 118%;
+        letter-spacing: 0.015em;
+    }
+
+    button.behance {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 22px;
+        gap: 10px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    button.resume {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 22px;
+        gap: 10px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    button.telegram {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 22px;
+        gap: 10px;
+        font-size: 10px;
+        line-height: 10px;
+    
+    }
+
+    button.mail {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 22px;
+        gap: 10px;
+        font-size: 10px;
+        line-height: 10px;
+        color: #FFFFFF;
+    }
+    
+    div.buttons {
+        width: 288px;
+        height: 118px;
+        gap: 8px;
+        margin-top: 40px;
+    }
+
+    div.first_buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+    }
+
+    
+}
