@@ -1,6 +1,11 @@
 body {
-    margin-top: 112px;
-    margin-left: 300px;
+    
+    min-width: 1024px;
+    max-width: 85%;
+    
+    margin: 120px;
+    margin-left: 200px;
+    padding: 0;
     
 }
 
@@ -31,6 +36,7 @@ span.profession {
 }
 
 p.desc {
+    
     color:#090909;
     font-family: 'Raleway';
     font-style: normal;
@@ -41,6 +47,7 @@ p.desc {
 }
 
 span.desc_Blue {
+    
     color: #1F6BFF;
     font-family: 'Raleway';
     font-style: normal;
@@ -57,7 +64,7 @@ button.behance {
     padding: 14px 34px;
     gap: 10px;
     background: #649BFD;
-    border-radius: 30px;
+    border-radius: 39px;
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
@@ -84,7 +91,7 @@ button.resume {
     padding: 14px 34px;
     gap: 10px;
     background: #E26B6F;
-    border-radius: 30px;
+    border-radius: 39px;
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
@@ -110,7 +117,7 @@ button.telegram {
     padding: 14px 34px;
     gap: 10px;
     background: #84CBF5;
-    border-radius: 30px;
+    border-radius: 39px;
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
@@ -137,7 +144,7 @@ button.mail {
     padding: 14px 34px;
     gap: 10px;
     background: #659AFD;
-    border-radius: 30px;
+    border-radius: 39px;
     font-family: 'Press Start 2P';
     font-style: normal;
     font-weight: 400;
@@ -155,6 +162,7 @@ button.mail:hover {
     transition: all .8s;  /* длительность анимации  */
     cursor: pointer;
 }
+
 div.first_buttons {
     display: flex;
     flex-direction: row;
@@ -170,6 +178,7 @@ div.buttons {
     padding: 0px;
     gap: 30px;
     margin-top: 80px;
-   
 
 }
+
+
