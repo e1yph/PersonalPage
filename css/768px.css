@@ -1,0 +1,100 @@
+@media(min-width:481px) and (max-width:768px) {
+    body {
+        display: flex;
+        min-width: 768px;
+        max-width: 75%;
+        margin-left: 56px;
+       
+    }
+
+    main {
+        
+        width: 656px;
+        height: 470px; 
+    }
+
+
+    div.text {
+        width: 649px;
+        height: 240px;
+        line-height: 118%;
+    }
+
+    span.profession {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    p.desc {
+        font-size: 20px;
+        line-height: 118%;
+        letter-spacing: 0.015em;
+    }
+
+    span.desc_Blue {
+        font-size: 20px;
+        line-height: 118%;
+        letter-spacing: 0.015em;
+    }
+
+    button.behance {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 41px;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    button.resume {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 41px;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    button.telegram {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 41px;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    button.mail {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 41px;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    div.first_buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+    }
+
+    div.buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+    }
+}
