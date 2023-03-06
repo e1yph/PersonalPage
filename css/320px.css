@@ -1,9 +1,10 @@
 @media (max-width: 480px) {
     body {
+        min-width: 320px;
+        max-width: 75%;
         margin-top: 32px;
         margin-left: 16px;
-        margin-right: 11px;
-        margin-bottom: 44px;
+       
         
     }
     main {
@@ -51,6 +52,7 @@
         font-size: 10px;
         line-height: 10px;
     }
+
     button.resume {
         display: flex;
         flex-direction: row;
@@ -85,13 +87,6 @@
         line-height: 10px;
         color: #FFFFFF;
     }
-    
-    div.buttons {
-        width: 288px;
-        height: 118px;
-        gap: 8px;
-        margin-top: 40px;
-    }
 
     div.first_buttons {
         display: flex;
@@ -100,6 +95,17 @@
         padding: 0px;
         gap: 8px;
     }
+    
+    div.buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        margin-top: 40px;
+    }
+
+
 
     
 }
